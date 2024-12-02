@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio curricular</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.scss">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+  }
+
+  main {
+    position: relative;
+    z-index: 1; 
+    padding: 20px;
+  }
+</style>
+
+<body>
+  <canvas></canvas> 
+
+  <main>
+
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="multimedia/Screenshot 2024-11-17 094327.png" alt="Brandon" width="80">
+        </figure>
+
+        <div class="info-content">
+       
+          <h1 class="name" title="Nombre"><span>Brandon Alejandro</span></h1>
+          <h1 class="name" title="Nombre">Gallegos Escobedo</h1>
+          <p class="title">Diseñador, Modelador y Desarrollador</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>ver contactos</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <img src="multimedia/gmail.png" alt="Gmail Icon" class="icon-image">
+            </div>
+            
+            <div class="contact-info">
+              <div class="separator"></div>
+              <p class="contact-title">Email</p>
+              <a href="mailto:2037001837@utna.edu.mx" class="contact-link">2037001837@utna.edu.mx</a>
+            </div>
+            
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <img src="multimedia/llamada-telefonica.png" alt="Tel Icon" class="icon-image">
+            </div>
+
+            <div class="contact-info">
+              <div class="separator"></div>
+              <p class="contact-title">Telefono</p>
+
+              <a href="tel:4651179384" class="contact-link">4651179384</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <img src="multimedia/calendario-reloj.png" alt="calen Icon" class="icon-image">
+            </div>
+
+            <div class="contact-info">
+              <div class="separator"></div>
+              <p class="contact-title">Fecha de nacimiento</p>
+
+              <time datetime="2024-12-16">16 de diciembre del 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <img src="multimedia/marcador-de-mapa.png" alt="mapa Icon" class="icon-image">
+            </div>
+
+            <div class="contact-info">
+              <div class="separator"></div>
+              <p class="contact-title">Localidad</p>
+
+              <address>Rincon de romos, Aguascalientes, Mexico</address>
+              
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+        <p class="contact-title">Redes sociales</p>
+
+        <ul class="social-list">
+
+         
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/brandon-gallegos-ab6b7a28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-link">
+              <img src="multimedia/LinkedIn_logo_initials.png" alt="linkedin Icon" class="icon-image">
+            </a>
+          </li>
+
+        </ul>
+        <div class="separator"></div>
+      </div>
+
+      <div class="separator"></div>
+      
+      <p class="contact-title">Aplicaciones </p>
+
+      <ul class="social-list">
+
+       
+
+        <li class="app-item" >
+          <a href="https://www.blender.org/" target="_blank" class="social-link">
+            <img mx-auto src="multimedia/blender.png" alt="blender Icon" class="icon-image">
+          </a>
+        </li>
+        <li class="app-item" >
+          <a href="https://code.visualstudio.com/" target="_blank" class="social-link">
+            <img mx-auto src="multimedia/visual-studio-code.png" alt="visual Icon" class="icon-image">
+          </a>
+        </li>
+        <li class="app-item"  >
+          <a href="https://www.unrealengine.com/en-US/unreal-engine-5" target="_blank" class="social-link">
+            <img mx-auto src="multimedia/unreal-engine.png" alt="unreal Icon" class="icon-image">
+          </a>
+        </li>
+        <li class="app-item"  >
+          <a href="https://www.autodesk.com/mx/products/maya/overview?term=1-YEAR&tab=subscription" target="_blank" class="social-link">
+            <img mx-auto src="multimedia/maya.png" alt="maya Icon" class="icon-image">
+          </a>
+        </li>
+       
+      </ul>
+      
+
+      <div class="separator"></div>
+      <p class="contact-title">Idiomas 
+        <div class="separator"></div>
+        Ingles: A2
+        <div class="separator"></div>
+        Español: Nativo
+      </p>
+     
+
+      <ul class="social-list">
+
+      
+
+      </ul>
+
+
+
+    </aside>
+
+
+
+
+    <div class="main-content">
+
+    
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Acerca</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Curriculum</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portafolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Servicios</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <article class="acerca  active" data-page="acerca">
+
+        <header>
+          <h2 class="h2 article-title">Sobre mi</h2>
+        </header>
+
+        <section class="acerca-text">
+          <p>
+         Diseñador, Modelador y Desarrollador de Aplicaciones y Videojuegos,
+         Disfruto por la creación, el diseño y el desarrollo de videojuegos en 2D y 3D. 
+
+
+          </p>
+
+          <p>
+            Actualmente, trabajo como <strong>Operador Site de Sistemas en Decasa</strong>, donde soy responsable de las siguientes tareas:
+          </p>
+          <ul>
+            <li>Brindar soporte técnico eficiente y personalizado.</li>
+            <li>Administrar bases de datos con enfoque en la integridad y seguridad de la información.</li>
+            <li>Realizar mantenimiento preventivo y correctivo de equipos y dispositivos.</li>
+            <li>Gestionar reportes y bitácoras para un monitoreo efectivo.</li>
+            <li>Implementar estrategias de respaldo y recuperación mediante copias de seguridad.</li>
+            <li>Administración de servidores y gestión de perfiles en <strong>Active Directory</strong>.</li>
+            <li>Resguardo, configuración y mantenimiento de dispositivos como <strong>Memor 10</strong>, <strong>Memor 11</strong>, <strong>Honeywell</strong> y <strong>Pocket</strong>.</li>
+            <li>Supervisión de checklist de estados de <strong>Wi-Fi</strong> y <strong>servidores</strong>.</li>
+            <li>Impresión de etiquetas y gestión de inventarios.</li>
+            <li>Revisión, seguimiento y resolución de tickets en <strong>SysAid</strong>.</li>
+            <li>Brindar soporte técnico remoto y presencial.</li>
+            <li>Elaboración de cartas responsivas y gestión de documentación.</li>
+            <li>Configuración, entrega y renovación de <strong>smartphones corporativos</strong>.</li>
+            <li>Administración y revision de APC y UPC de los edificios Almacen, Almacen oficionas, Administrativo, Vigilancia, Ranof, Taller y comedor.</li>
+            <li>Administración y revision de camaras de los edificios Almacen, Almacen oficionas, Administrativo, Vigilancia, Ranof, Taller y comedor.</li>
+          </ul>
+          <p>
+            Mi enfoque profesional se basa en la mejora continua, la atención al detalle y la solución efectiva de problemas tecnológicos.
+          </p>
+          
+        </section>
+
+
+
+        <section class="service">
+
+          <h3 class="h3 service-title"></h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="multimedia/personalizar-computadora (1).png" alt="Diseñador y Modelador" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Diseñador y Modelador</h4>
+
+                <p class="service-item-text">
+                  Diseñador y Modelador 3D, con experiencia en Blender, Maya, etc.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="multimedia/codigo-de-visualizacion.png" alt="Programador" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programador</h4>
+
+                <p class="service-item-text">
+                  Programador en bastantes tipos de lenguajes como C# , C++, javascript, Python, etc
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="multimedia/interfaz-de-usuario-del-navegador.png" alt="UI/UX" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX</h4>
+
+                <p class="service-item-text">
+                  Experencia desarrollando apps UI/UX for iOS, Android y Desktop.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="multimedia/camara.png" alt="fotografo" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">fotografo</h4>
+
+                <p class="service-item-text">
+                  Experiencia tomando exelentes fotos para proyectos de marketing, publicidad y Texturas fotorealistas.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+       
+        <section class="hobbies">
+
+          <h3 class="h3 hobbies-title">Pasatiempos</h3>
+        
+          <ul class="hobbies-list has-scrollbar">
+        
+            <li class="hobbies-item">
+              <div class="content-card" data-hobbies-item>
+        
+                <figure class="hobbies-avatar-box">
+                  <img src="multimedia/mando.png" alt="Jugar videojuegos" width="60" data-hobbies-avatar>
+                </figure>
+        
+                <h4 class="h4 hobbies-item-title" data-hobbies-title>Jugar videojuegos</h4>
+        
+                <div class="hobbies-text" data-hobbies-text>
+                  <p>
+                    Me encanta explorar nuevos mundos y superar desafíos en videojuegos.
+                  </p>
+                </div>
+        
+              </div>
+            </li>
+        
+            <li class="hobbies-item">
+              <div class="content-card" data-hobbies-item>
+        
+                <figure class="hobbies-avatar-box">
+                  <img src="multimedia/ajedrez-peon-alt.png" alt="Jugar ajedrez" width="60" data-hobbies-avatar>
+                </figure>
+        
+                <h4 class="h4 hobbies-item-title" data-hobbies-title>Jugar ajedrez</h4>
+        
+                <div class="hobbies-text" data-hobbies-text>
+                  <p>
+                    Disfruto del desafío intelectual que implica jugar al ajedrez.
+                  </p>
+                </div>
+        
+              </div>
+            </li>
+        
+            <li class="hobbies-item">
+              <div class="content-card" data-hobbies-item>
+        
+                <figure class="hobbies-avatar-box">
+                  <img src="multimedia/play-alternativo.png" alt="Ver anime" width="60" data-hobbies-avatar>
+                </figure>
+        
+                <h4 class="h4 hobbies-item-title" data-hobbies-title>Ver anime</h4>
+        
+                <div class="hobbies-text" data-hobbies-text>
+                  <p>
+                    Me apasiona disfrutar de historias únicas y estilos artísticos del anime.
+                  </p>
+                </div>
+        
+              </div>
+            </li>
+
+ <li class="hobbies-item">
+            <div class="content-card" data-hobbies-item>
+      
+              <figure class="hobbies-avatar-box">
+                <img src="multimedia/musica-alternativa.png" alt="escuchar música" width="60" data-hobbies-avatar>
+              </figure>
+      
+              <h4 class="h4 hobbies-item-title" data-hobbies-title>escuchar música</h4>
+      
+              <div class="hobbies-text" data-hobbies-text>
+                <p>
+                  Me apasiona disfrutar de buena musica y generos musicales.
+                </p>
+              </div>
+      
+            </div>
+          </li>
+        
+          </ul>
+
+         
+      
+      
+        
+        </section>
+        
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="hobbies-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="" alt="" width="80" data-modal-img>
+              </figure>
+
+              <img src="" alt="">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <time datetime="2024-11-06"></time>
+
+              <div data-modal-text>
+                <p>
+                  
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+
+      </article>
+
+
+
+
+
+      <article class="curriculum" data-page="curriculum">
+
+        <header>
+          <h2 class="h2 article-title">Curriculum</h2>
+        </header>
+      
+      
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <img src="multimedia/gorro-de-graduacion.png" alt="Educación" width="30" data-hobbies-avatar>
+            </div>
+            <h3 class="h3">Educación</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Universidad Tecnológica del Norte de Aguascalientes</h4>
+              <span>Actualidad</span>
+              <p class="timeline-text">Ingeniería en Entornos Virtuales y Negocios Digitales.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Universidad Tecnológica del Norte de Aguascalientes</h4>
+              <span>2021 — 2023</span>
+              <p class="timeline-text">TSU en Tecnologías de la Información Área Entornos Virtuales y Negocios Digitales.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">CBTA 205</h4>
+              <span>2016 — 2019</span>
+              <p class="timeline-text">Técnico en Ofimática.</p>
+            </li>
+          </ol>
+        </section>
+      
+      
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <img src="multimedia/maletin-en-blanco.png" alt="experiencia" width="30" data-hobbies-avatar>
+            </div>
+            <h3 class="h3">Experiencia</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Operador Site</h4>
+              <span>Empresa DACASA | Enero 2024 — Actualidad</span>
+              <p class="timeline-text">
+                - Mantenimiento a equipos y sistemas.<br>
+                - Soporte técnico.<br>
+                - Administración de servidores y Active Directory.<br>
+                - Configuración y mantenimiento de dispositivos como Memor 10, Memor 11, Honeywell, y Pocket.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Proyecto de Video Promocional</h4>
+              <span>Empresa UTNA | Enero 2023 — Abril 2023</span>
+              <p class="timeline-text">
+                - Diseñador y modelador.<br>
+                - Animador.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Creador de Cortometraje</h4>
+              <span>Empresa UTNA | Septiembre 2022 — Diciembre 2022</span>
+              <p class="timeline-text">
+                - Modelador.<br>
+                - Animador.
+              </p>
+            </li>
+          </ol>
+        </section>
+      
+       
+        <section class="skill">
+          <h3 class="h3 skills-title">Habilidades</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Diseño de páginas web</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Modelado y Animación 3D</h5>
+                <data value="100">100%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Soporte técnico</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Diseño de logotipos</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      
+      </article>
+      
+
+
+
+      <article class="portafolio" data-page="portafolio">
+
+        <header>
+          <h2 class="h2 article-title">Portafolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Todos</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Modelos 3D</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>PixelArt</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Certificados</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Seleccionar categoria</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>todos</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>modelos 3d</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>pixelart</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>certificados</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/fondo.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UTNA</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/captura auditorio 2.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UTNA</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/captura auditorio.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UTNA</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/Captura de Pantalla 2023-02-13 a la(s) 13.50.08.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Metro</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/Captura de Pantalla 2023-03-23 a la(s) 8.35.54.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Metro</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/Captura de Pantalla 2023-04-05 a la(s) 8.54.27.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Metro</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/Captura de Pantalla 2023-04-13 a la(s) 13.14.28.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">FNAF</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/imagen MA.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UTNA</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/imagen MTAUT.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UTNA</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/imagen MTSMF.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UTNA</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/imagen TIDMS.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UTNA</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/imagen TIENVD.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UTNA</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/imagen0001.jpg" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UTNA</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/imagen0002.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UTNA</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/imagen0003.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UTNA</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/imagen0004.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UTNA</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/imagen0005.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UTNA</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/imagen0006.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UTNA</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/imagen0009.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pumpkin Night</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/imagen0010.png" alt="Auditorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Calle</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <video controls autoplay loop muted style="width: 100%; height: auto;">
+                    <source src="multimedia/auditorio video0001-0440 - copia.mp4" type="video/mp4">
+                  
+                  </video>
+                </figure>
+
+                <h3 class="project-title">UTNA</h3>
+
+                <p class="project-category">Modelo 3D</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="modelos 3d">
+              <a href="#">
+            
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+            
+                
+                  <video controls autoplay loop muted style="width: 100%; height: auto;">
+                    <source src="multimedia/sala de radio video0001-0350 - copia.mp4" type="video/mp4">
+                  
+                  </video>
+                  
+                  </video>
+                </figure>
+            
+                <h3 class="project-title">UTNA</h3>
+                <p class="project-category">Modelo 3D</p>
+            
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="pixelart">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/arbol-2-pixilart.png" alt="pixelart" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Video Juego</h3>
+
+                <p class="project-category">PixelArt</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="pixelart">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/arbol.png" alt="pixelart" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Video Juego</h3>
+
+                <p class="project-category">PixelArt</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="pixelart">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/casa.png" alt="pixelart" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Video Juego</h3>
+
+                <p class="project-category">PixelArt</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="pixelart">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/darkswordman.png" alt="pixelart" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Video Juego</h3>
+
+                <p class="project-category">PixelArt</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="pixelart">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/fantasma.gif" alt="pixelart" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Video Juego</h3>
+
+                <p class="project-category">PixelArt</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="pixelart">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/Glass and land.png" alt="pixelart" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Video Juego</h3>
+
+                <p class="project-category">PixelArt</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="pixelart">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/Glass capa.png" alt="pixelart" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Video Juego</h3>
+
+                <p class="project-category">PixelArt</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="pixelart">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/montana.png" alt="pixelart" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Video Juego</h3>
+
+                <p class="project-category">PixelArt</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="pixelart">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/pixil-gif-drawing.gif" alt="pixelart" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Video Juego</h3>
+
+                <p class="project-category">PixelArt</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="pixelart">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/slime.gif" alt="pixelart" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Video Juego</h3>
+
+                <p class="project-category">PixelArt</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="certificados">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/20241121_010002.JPG" alt="Certificados" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Game On</h3>
+
+                <p class="project-category">Certificados</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="certificados">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="multimedia/Certificado game on.pdf.png" alt="Certificados" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Game On</h3>
+
+                <p class="project-category">Certificados</p>
+
+              </a>
+            </li>
+            
+
+        </section>
+
+      </article>
+
+
+
+      <article class="servicios" data-page="servicios">
+
+        <header>
+          <h2 class="h2 article-title">Servicios</h2>
+        </header>
+      
+        <section class="mapbox">
+          <div class="servicio">
+            <h3 class="h3">Desarrollo de Videojuegos</h3>
+            <ul>
+              <li>Creación de videojuegos en 2D o 3D.</li>
+              <li>Desarrollo de personajes, enemigos y niveles.</li>
+              <li>Implementación de mecánicas de juego y animaciones.</li>
+              <li>Pruebas y optimización para una experiencia fluida.</li>
+            </ul>
+          </div>
+        </section>
+      
+        <section class="mapbox">
+          <div class="servicio">
+            <h3 class="h3">Diseño y Modelado 3D</h3>
+            <ul>
+              <li>Creación de modelos 3D para videojuegos, animaciones y presentaciones.</li>
+              <li>Texturización y renderizado de alta calidad.</li>
+              <li>Personalización y adaptación a diferentes estilos visuales.</li>
+            </ul>
+          </div>
+        </section>
+      
+        <section class="mapbox">
+          <div class="servicio">
+            <h3 class="h3">Diseño Web y Desarrollo de Aplicaciones Web</h3>
+            <ul>
+              <li>Diseño de sitios web personalizados y responsivos.</li>
+              <li>Desarrollo de aplicaciones web progresivas (PWA).</li>
+              <li>Implementación de animaciones y efectos interactivos.</li>
+              <li>Optimización para SEO y accesibilidad.</li>
+            </ul>
+          </div>
+        </section>
+      
+        <section class="mapbox">
+          <div class="servicio">
+            <h3 class="h3">Consultoría y Soporte Técnico</h3>
+            <ul>
+              <li>Mantenimiento y soporte de sitios y aplicaciones.</li>
+              <li>Solución de problemas técnicos y asistencia en el uso de herramientas digitales.</li>
+              <li>Asesoría para la mejora de infraestructura digital.</li>
+            </ul>
+          </div>
+        </section>
+      
+        <section class="mapbox">
+          <div class="servicio">
+            <h3 class="h3">Creación de Portafolios Digitales</h3>
+            <ul>
+              <li>Desarrollo de portafolios online personalizados y profesionales.</li>
+              <li>Organización y presentación de proyectos visuales y multimedia.</li>
+              <li>Estrategias para resaltar fortalezas y logros de forma atractiva.</li>
+            </ul>
+          </div>
+        </section>
+      
+        <section class="mapbox">
+          <div class="servicio">
+            <h3 class="h3">Marketing Digital</h3>
+            <ul>
+              <li>Estrategias de SEO para mejorar visibilidad en motores de búsqueda.</li>
+              <li>Campañas en redes sociales y gestión de contenido.</li>
+              <li>Publicidad digital y análisis de tráfico web para identificar oportunidades.</li>
+            </ul>
+          </div>
+        </section>
+      
+      </article>
+      
+      
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+ 
+  <script>
+    let af;
+    const numLasers = 250;
+    const tail = 400;
+    const canvas = document.querySelector("canvas");
+    const ctx = canvas.getContext("2d");
+
+    const createLasers = n => {
+      const lasers = [];
+      for (let i = 0; i < n; ++i) {
+        lasers.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          s: Math.random() * 2 + 1
+        });
+      }
+      return lasers;
+    };
+
+    const renderLaser = l => {
+      const grad = ctx.createLinearGradient(l.x, l.y, l.x, l.y + tail);
+      const a = 1 - (canvas.height - l.y) / canvas.height * 0.8;
+      grad.addColorStop(0, `hsla(340,100%,100%,${a})`);
+      grad.addColorStop(1, "hsla(340,100%,50%,0)");
+      ctx.strokeStyle = grad;
+      ctx.beginPath();
+      ctx.moveTo(l.x, l.y);
+      ctx.lineTo(l.x, l.y + tail);
+      ctx.stroke();
+    };
+
+    const updateLaser = l => {
+      l.y -= l.s;
+      if (l.y < -tail) {
+        l.y = canvas.height;
+      }
+    };
+
+    const render = lasers => {
+      ctx.fillStyle = "hsl(261,43%,7%)";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      for (let l of lasers) {
+        renderLaser(l);
+        updateLaser(l);
+      }
+      af = requestAnimationFrame(() => render(lasers));
+    };
+
+    const init = () => {
+      cancelAnimationFrame(af);
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      render(createLasers(numLasers));
+    };
+
+    window.onresize = init;
+    init();
+  </script>
+
+  <script src="js/script.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("/sw.js")
+        .then(() => console.log("Service Worker registrado correctamente"))
+        .catch((err) => console.error("Error al registrar el Service Worker:", err));
+    }
+  </script>
+ 
+
+</body>
+
+</html>

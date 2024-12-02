@@ -1,0 +1,22 @@
+{
+    "name": "Portfolio Curricular",
+    "short_name": "Portfolio",
+    "description": "Una muestra interactiva y profesional de mi trabajo y experiencia.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "/multimedia/Potafolio.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/multimedia/Potafolio.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+  

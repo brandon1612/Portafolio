@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background: #111; /* Fondo oscuro */
+    color: #00ff00; /* Color del texto */
+    margin: 0; /* Sin márgenes */
+    font-family: 'Press Start 2P', cursive; /* Usar la fuente cyberpunk */
+}
+
+h1 {
+    font-size: 5rem; /* Tamaño de la fuente */
+    position: relative; /* Para el efecto de bug */
+    overflow: hidden; /* Ocultar el desbordamiento */
+}
+
+h1 span {
+    display: inline-block; /* Para aplicar el efecto a cada letra */
+    animation: glitch 1s infinite; /* Aplicar la animación de glitch */
+}
+
+@keyframes glitch {
+    0% {
+        text-shadow: 2px 0 red, -2px 0 blue; /* Efecto de sombra */
+        transform: translate(0);
+    }
+    20% {
+        text-shadow: -2px 0 red, 2px 0 blue; /* Cambiar sombras */
+        transform: translate(-2px, -2px); /* Desplazamiento */
+    }
+    40% {
+        text-shadow: 2px 0 red, -2px 0 blue; /* Regresar a la sombra original */
+        transform: translate(2px, 2px); /* Desplazamiento */
+    }
+    60% {
+        text-shadow: -2px 0 red, 2px 0 blue; /* Cambiar sombras nuevamente */
+        transform: translate(-2px, -2px); /* Desplazamiento */
+    }
+    80% {
+        text-shadow: 2px 0 red, -2px 0 blue; /* Regresar a la sombra original */
+        transform: translate(2px, 2px); /* Desplazamiento */
+    }
+    100% {
+        text-shadow: 0 0 red, 0 0 blue; /* Sin sombras al final */
+        transform: translate(0); /* Sin desplazamiento */
+    }
+}
